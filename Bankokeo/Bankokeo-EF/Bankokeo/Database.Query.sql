@@ -1,0 +1,19 @@
+CREATE DATABASE [Bankokeo]
+GO
+
+USE [Bankokeo]
+GO
+
+CREATE TABLE [User] 
+(
+    [Id] INT NOT NULL IDENTITY(1, 1),
+    [Name] NVARCHAR(80) NOT NULL,
+    [Login] VARCHAR(80) NOT NULL,
+    [Password] NVARCHAR(80) NOT NULL,
+    [Account] INT NOT NULL,
+    [Balance] NVARCHAR(80) NOT NULL
+)
+GO
+
+CONTRAINT
+ALTER TABLE
